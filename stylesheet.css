@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    background-image: radial-gradient(rgba(0,0,0,0.4) 15%,rgba(0,0,0,1) 85%),url(backgimage.jpg);
+    background-size: 100% 50vw;
+    background-repeat: no-repeat;
+}
+
+
+.logo{
+    height: 4vw;
+    width: auto;
+    margin-left: 12vw;
+    margin-top: 10px;
+    float: left;
+}
+.language{
+    margin-left: 40vw;
+    float: left;
+}
+
+.signin{
+    color: aliceblue;
+    margin-left: 5vw;
+    float: left;
+    background-color: #db2a2a;
+    padding: 6px;
+    border-radius: 3px;
+}
+.line2{
+    clear: left;
+    float: left;
+    margin-top: 15vw;
+    margin-left: 20%;
+    font-size: 4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line3{
+    clear: left;
+    float: left;
+    margin-left: 40%;
+    margin-top: 15px;
+    font-size: 2vw;
+}
+.line4{
+    clear: left;
+    float: left;
+    margin-left: 25%;
+    margin-top: 25px;
+    font-size: 24px;
+}
+.line5{
+    clear: left;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+.email{
+    background-color: rgba(0,0,0.5);
+    height: 4vw;
+    margin-top: 2vw;
+    width: 20vw;
+    padding: 1vw;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.started{
+    color: aliceblue;
+    background-color: #db2a2a;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: 2vw;
+    height: 4vw;
+    width: 12vw;
+    margin-left: 1vw;
+    border: none;
+    font-size: 20px;
+}
+.endline1{
+    background-color: #363535;
+    height: 8px;
+    width: 100%;
+    margin-top: 10.8vw;
+
+}
+.line6{
+    margin-top: 20vw;
+}
