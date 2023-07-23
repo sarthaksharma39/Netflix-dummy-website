@@ -177,3 +177,46 @@ progress{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 13vw 0vw 0 16vw;
 }
+.line10{
+    width: 45vw;
+    font-size: 2vw;
+    margin: 2vw 0vw 10vw 16vw;
+}
+.line11{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    margin-top: 4vw;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content:flex-start; */
+    align-items:flex-start;
+    margin-top: 6vw;
+    margin-left: 15vw;
+    
+}
+.items{
+    width: 60vw;
+    /* flex-grow: 10; */
+    background-color: #3b3b3b;
+    /* flex-basis: 3vw ; */
+    margin: 1vw 0 1vw 0;
+    padding: 2vw;
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    color: aliceblue;
+}
+
+.itemcontent{
+    /* display: none ; */
+    margin-top: 1.3vw;
+    margin-left: 1.3vw;
+}
+
+.items:hover .itemcontent{
+    display: block;
+}
