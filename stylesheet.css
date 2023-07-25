@@ -213,10 +213,45 @@ progress{
 
 .itemcontent{
     /* display: none ; */
-    margin-top: 1.3vw;
-    margin-left: 1.3vw;
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+    display: none;
 }
-
+.items:hover {
+    display: block;
+    background-color: #6e6d6d;
+}
 .items:hover .itemcontent{
     display: block;
+}
+
+.endline3{
+    background-color: #3b3a3a;
+    height: 8px;
+    width: 100%;
+    margin-top: 5vw;
+}
+.call{
+    margin: 5vw 0 2vw 14vw;
+}
+.credit{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14vw;
+    flex-wrap: wrap;
+    width: 70vw;
+    margin-bottom: 7vw;
+    
+}
+.creditlink1{
+    flex: 33%;
+    margin-top: 10px;
+}
+.creditlink2{
+    margin-top: 10px;
+    flex: 33%;
+}
+.creditlink3{
+    margin-top: 10px;
+    flex: 33%;
 }
